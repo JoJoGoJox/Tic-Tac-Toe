@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: calc(490px / 3);
+    width: calc(490px / 3);
+    margin: auto;
+    background-color: #444;
+    font-size: 80px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
